@@ -26,18 +26,18 @@ Script for the metrology problem presented in ***Sec. V.C. Example 3: Multi-para
 
 #### DATA FILES
 
-- [DataFiles/data_phaseestimation.mat](https://github.com/jessicabavaresco//singleshot-bayesian-estimation/blob/main/DataFiles/data_phaseestimation.mat):
+- [Data/data_phaseestimation.mat](https://github.com/jessicabavaresco//singleshot-bayesian-estimation/blob/main/Data/data_phaseestimation.mat):
 MATLAB data file generated with [script_phaseestimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_phaseestimation.m) and plotted in **Fig. 2** of the paper. It contains the  variables
   - score_M1, score_M2, score_M3: vector containing the best score found applying methods 1, 2, and 3, respectively. Each line corresponds to one value of $N_o\in$ { $2,..,10$ }.
   - T_M1, T_M2, T_M3: cells containing the best testers found applying methods 1, 2, and 3, respectively. Each cell entry corresponds to a tensor that contains the best tester for a value of $N_o\in$ { $2,..,10$ }. The first two indeces of each tensor correspond to a matrix defining a tester element and the third index marks the label $i\in$ { $1,..,N_0$ } of the tester element. 
 
-- [DataFiles/data_thermometry.mat](https://github.com/jessicabavaresco//singleshot-bayesian-estimation/blob/main/DataFiles/data_thermometry.mat):
+- [Data/data_thermometry.mat](https://github.com/jessicabavaresco//singleshot-bayesian-estimation/blob/main/Data/data_thermometry.mat):
 MATLAB data file generated with [script_thermometry.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_thermometry.m) and plotted in **Figs. 3-5** of the paper. It contains the variables
    - score_M1, score_M2, score_M3: matrix containing the best score found applying methods 1, 2, and 3, respectively. Each line corresponds to a value of $N_o\in$ { $2,..,10$ } and each column corresponds to a time step.
   - T_M1, T_M2, T_M3: cells containing the best testers found applying methods 1, 2, and 3, respectively. Cells: each line corresponds to a value of $N_o\in$ { $2,..,10$ } and each column corresponds to a time step; each entry contains the a tensor with the best tester found in that scenario. The first two indeces of each tensor correspond to a matrix defining a tester element and the third index marks the label $i\in$ { $1,..,N_0$ } of the tester element.
   - score_M1_PPT, score_M2_PPT, score_M3_PPT, T_M1_PPT, T_M2_PPT, T_M3_PPT: analogous variables for the no-entanglement approximation of the problem.
 
-- [DataFiles/data_su2estimation.mat](https://github.com/jessicabavaresco//singleshot-bayesian-estimation/blob/main/DataFiles/data_su2estimation.mat):
+- [Data/data_su2estimation.mat](https://github.com/jessicabavaresco//singleshot-bayesian-estimation/blob/main/Data/data_su2estimation.mat):
 MATLAB data file generated with [script_su2estimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_su2estimation.m) and plotted in **Fig. 6** of the paper. It contains the variables
   - score_M1, score_M2, score_M3: vector containing the best score found applying methods 1, 2, and 3, respectively. Each line corresponds to one value of $N_o\in$ { $2,..,10$ }.
   - T_M1, T_M2, T_M3: cells containing the best testers found applying methods 1, 2, and 3, respectively. Each cell entry corresponds to a tensor that contains the best tester for a value of $N_o\in$ { $2,..,10$ }. The first two indeces of each tensor correspond to a matrix defining a tester element and the third index marks the label $i\in$ { $1,..,N_0$ } of the tester element. 
