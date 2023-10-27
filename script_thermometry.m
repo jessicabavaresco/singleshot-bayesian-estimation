@@ -11,7 +11,7 @@ Tmax = 2;       % maximum temperature
 Nt = 100;       % number of time steps
 
 No_initial = 2;
-No_final   = 2;
+No_final   = 20;
 
 time = 0:(1/(Nt-1)):1;
 
