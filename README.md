@@ -15,7 +15,7 @@ This repository consists of the following:
 - [SDP_scoreoptimization.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/SDP_scoreoptimization.m):
 **SDP** that solves the optimization in **Eq. (18)**. That is, that given a set of operators { $X(\hat{\theta}_i)$ }, maximizes or minimizes (depending on the reward/cost function) the score $\mathcal{S}$ over testers $T=$ { $T_i$ }.
 
-- [tester2realization.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/SDP_scoreoptimization.m):
+- [tester2realization.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/tester2realization.m):
 Function that computes a quantum state and measurement that compose a quantum realization of a given tester, according to Eqs. (12) and (13) of the paper.
 
 - [script_phaseestimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_phaseestimation.m):
