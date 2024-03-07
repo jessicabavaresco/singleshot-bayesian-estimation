@@ -15,6 +15,9 @@ This repository consists of the following:
 - [SDP_scoreoptimization.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/SDP_scoreoptimization.m):
 **SDP** that solves the optimization in **Eq. (18)**. That is, that given a set of operators { $X(\hat{\theta}_i)$ }, maximizes or minimizes (depending on the reward/cost function) the score $\mathcal{S}$ over testers $T=$ { $T_i$ }.
 
+- [tester2realization.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/SDP_scoreoptimization.m):
+Function that computes a quantum state and measurement that compose a quantum realization of a given tester, according to Eqs. (12) and (13) of the paper.
+
 - [script_phaseestimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_phaseestimation.m):
 Script for the metrology problem presented in ***Sec. V.A. Example 1: Paradigmatic example – Local phase estimation*** It evaluates methods 1, 2, and 3 for the parameters of this example, outlined in the paper.
 
@@ -23,4 +26,22 @@ Script for the metrology problem presented in ***Sec. V.B. Example 2: Non-unitar
 
 - [script_su2estimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_su2estimation.m):
 Script for the metrology problem presented in ***Sec. V.C. Example 3: Multi-parameter estimation – SU(2) gates***. It evaluates methods 1, 2, and 3 for the parameters of this example, outlined in the paper.
+
+#### DATA
+
+- [data_phaseestimation.mat](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/data_phaseestimation.mat):
+Output data obtained from [script_phaseestimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_phaseestimation.m) containing the optimal scores, testers, states and measurements found by our methods for the metrology problem presented in ***Sec. V.A. Example 1: Paradigmatic example – Local phase estimation***.
+
+- [data_thermometry_scores&testers.mat](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/data_thermometry_scores&testers.mat):
+Output data obtained from [script_thermometry.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_thermometry.m) containing the optimal scores and testers found by our methods for the metrology problem presented in ***Sec. V.B. Example 2: Non-unitary evolution – Thermometry***.
+
+- [data_thermometry_states.mat](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/data_thermometry_states.mat):
+Output data obtained from [script_thermometry.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_thermometry.m) containing the optimal states found by our methods for the metrology problem presented in ***Sec. V.B. Example 2: Non-unitary evolution – Thermometry***.
+
+- [data_thermometry_measurements.mat](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/data_thermometry_measurements.mat):
+Output data obtained from [script_thermometry.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_thermometry.m) containing the measurements found by our methods for the metrology problem presented in ***Sec. V.B. Example 2: Non-unitary evolution – Thermometry***.
+
+- [data_su2estimation.mat](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/data_su2estimation.mat):
+Output data obtained from [script_su2estimation.m](https://github.com/jessicabavaresco/singleshot-bayesian-estimation/blob/main/script_su2estimation.m) containing the optimal scores, testers, states and measurements found by our methods for the metrology problem presented in ***Sec. V.C. Example 3: Multi-parameter estimation – SU(2) gates***.
+
 
