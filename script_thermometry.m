@@ -143,7 +143,7 @@ for i=1:No
 end
 
 
-solution = solvesdp(F,-minmax*score,sdpsettings('solver','sedumi','verbose',0,'cachesolvers',1));
+solution = solvesdp(F,-minmax*score,sdpsettings('solver','mosek','verbose',0,'cachesolvers',1));
 
 
 T = double(T);

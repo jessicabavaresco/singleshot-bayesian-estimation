@@ -177,4 +177,28 @@ end
 end 
 
 
+function C = kraus2choi(K)
+
+d_out  = size(K,1);
+d_in   = size(K,2);
+nkraus = size(K,3);
+
+psi = zeros(d_in^2,1);
+vec = eye(d_in);
+
+for i=1:d_in
+    psi = psi + kron(vec(:,i),vec(:,i));
+end
+
+C = zeros(d_in*d_out,d_in*d_out);
+
+for i=1:nkraus
+    C = C + kron(eye(d_in),K(:,:,i))*psi*(psi')*kron(eye(d_in),K(:,:,i)');
+end
+
+end
+
+
+
+
 
