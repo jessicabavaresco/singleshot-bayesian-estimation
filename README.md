@@ -1,7 +1,7 @@
-## Code to accompany: *[Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations](https://arxiv.org/abs/xxxx.xxxxx)*
+## Code to accompany: *[Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations](https://arxiv.org/abs/2311.01513)*
 #### Jessica Bavaresco, Patryk Lipka-Bartosik, Pavel Sekatski, and Mohammad Mehboudi
 
-This is a repository for the code used in the article "*Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations*, Jessica Bavaresco, Patryk Lipka-Bartosik, Pavel Sekatski, and Mohammad Mehboudi, [arXiv:2311.01513 [quant-ph]](https://arxiv.org/abs/2311.01513)".
+This is a repository for the code used in the article "*Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations*, Jessica Bavaresco, Patryk Lipka-Bartosik, Pavel Sekatski, and Mohammad Mehboudi, [*Phys. Rev. Research* **6**, 023305 (2024)](https://doi.org/10.1103/PhysRevResearch.6.023305), [arXiv:2311.01513 [quant-ph]](https://arxiv.org/abs/2311.01513)".
 
 All code is written in MATLAB and requires:
 - [Yalmip](https://yalmip.github.io) - a free MATLAB toolbox for rapid prototyping of optimization problems
