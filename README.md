@@ -1,6 +1,8 @@
 ## Code to accompany: *[Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations](https://arxiv.org/abs/2311.01513)*
 #### Jessica Bavaresco, Patryk Lipka-Bartosik, Pavel Sekatski, and Mohammad Mehboudi
 
+[![DOI](https://zenodo.org/badge/708476893.svg)](https://doi.org/10.5281/zenodo.15801253)
+
 This is a repository for the code used in the article "*Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations*, Jessica Bavaresco, Patryk Lipka-Bartosik, Pavel Sekatski, and Mohammad Mehboudi, [*Phys. Rev. Research* **6**, 023305 (2024)](https://doi.org/10.1103/PhysRevResearch.6.023305), [arXiv:2311.01513 [quant-ph]](https://arxiv.org/abs/2311.01513)".
 
 All code is written in MATLAB and requires:
